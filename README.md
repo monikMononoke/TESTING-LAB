@@ -6,6 +6,11 @@ TESTING LABORATORY - LEMONCODE MASTER FRONT END
 - Clone repository in local machine
 - Create a branch for your work
 
+## Installation and testing commands
+
+- Install dependencies: `npm install`
+- Run tests: `npm test`
+
 ## TODO
 
 1. Add test to the mapper `./src/pods/project/project.mapper.ts`
@@ -13,13 +18,6 @@ TESTING LABORATORY - LEMONCODE MASTER FRONT END
 2. Add test to the component `./src/common/components/confirmation-dialog/confirmation-dialog.component.tsx`
 
 3. Add test to hook: `./src/common/components/confirmation-dialog/confirmation-dialog.hook.ts`
-
-## Installation and testing commands
-
-- Install dependencies: `npm install`
-- Run tests: `npm test`
-
-## Configuration and additional libraries
 
 ### What to test in the mapper `./src/pods/project/project.mapper.ts`
 
