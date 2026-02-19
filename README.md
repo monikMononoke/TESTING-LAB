@@ -43,3 +43,12 @@ npm install --save-dev @testing-library/user-event
 - Check if the confirm button calls the onConfirm function when clicked.
 - Check if the cancel button calls the onCancel function when clicked.
 - Check if the title and message props are rendered correctly in the component.
+
+### What to test in hook: `./src/common/components/confirmation-dialog/confirmation-dialog.hook.ts`
+
+- Check if the hook returns the expected default state values when initialized.
+- Check if isOpen and itemToDelete are updated correctly when onOpenDialog is called with an item.
+- Check if isOpen is set to false when onClose is called.
+- Check if itemToDelete is reset when there is a sequence of onOpenDialog and onAccept calls (with updated item).
+- Check if itemToDelete is set to default value when onAccept is called.
+- Check if isOpen is set to true and itemToDelete is updated when onOpenDialog is called.
